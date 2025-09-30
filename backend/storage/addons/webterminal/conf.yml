@@ -1,0 +1,13 @@
+plugin:
+  name: Web Terminal
+  identifier: webterminal
+  description: "Adds a web-based terminal to the admin panel for quick server access. SECURITY RISK: Only for root admins."
+  flags:
+    - hasEvents
+  version: 1.0.0
+  target: v3
+  author: 
+    - YourName
+  icon: https://raw.githubusercontent.com/MythicalLTD/mythicaldash/main/public/favicon.ico
+  dependencies: 
+    - php=8.1
